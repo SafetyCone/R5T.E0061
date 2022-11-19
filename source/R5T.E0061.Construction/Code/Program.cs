@@ -1,13 +1,15 @@
 using System;
+using System.Threading.Tasks;
 
 
 namespace R5T.E0061.Construction
 {
     class Program
     {
-        static void Main()
+        static async Task Main()
         {
-            Console.WriteLine("Hello World!");
+            //await Explorations.Instance.TryTestIfNuGetPackageExists_Local01();
+            await Explorations.Instance.TryTestIfNuGetPackageExists_Local02();
         }
     }
 }
